@@ -1,2 +1,0 @@
-/afs/cern.ch/work/a/abenagli/CFCalTools/SolidCapillary/build/CMakeFiles/SolidCapillary.dir
-/afs/cern.ch/work/a/abenagli/CFCalTools/SolidCapillary/build/CMakeFiles/SolidCapillary_.dir
