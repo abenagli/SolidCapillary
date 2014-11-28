@@ -1,7 +1,30 @@
-CFCAL_FULL
-==========
+SolidCapillary
+==============
 
-Full containment detector based on Crystal Fibers (LuAG) and Brass, simplified geometry.
+Simulation of a solid capillary fiber
 
-Layers of 1 mt long fibers are stacked along z with a tunable spacing.
-Config file can be used to set the spacing between layers and the total number of fibers.
+
+Instructions to run the code on lxplus
+
+1. download the code from github:
+git clone git:github.com:/abenagli/SolidCapillary
+
+
+2. enter the directory
+cd SolidCapillary
+
+
+3. source Geant4 installation at cern:
+source myGeant4.sh
+
+
+4. create build directory and compile the code:
+mkdir build
+cd build
+source ../COMPILE.sh
+make
+cd..
+
+
+5. execute it:
+./build/SolidCapillary template.cfg
