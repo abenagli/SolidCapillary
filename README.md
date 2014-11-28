@@ -26,5 +26,8 @@ make
 cd..
 
 
-5. execute it:
+5. change execution parameters in file template.cfg
+
+
+6. execute it:
 ./build/SolidCapillary template.cfg
