@@ -1,0 +1,15 @@
+# Macro file for the
+# initialization of G4GeneralParticleSource
+
+/gps/energy ENERGY GeV
+/gps/particle PARTICLE
+/gps/pos/type Plane
+/gps/pos/shape Square
+## wide beamspot
+/gps/pos/halfx HALFX mm
+/gps/pos/halfy HALFY mm
+## point-like beamspot
+#/gps/pos/halfx 0.005 mm
+#/gps/pos/halfy 0.005 mm
+
+/run/beamOn NEVTS
